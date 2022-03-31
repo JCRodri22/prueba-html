@@ -1,0 +1,109 @@
+body {
+  flex-wrap: wrap;
+}
+
+.bloq {
+  background: #f8f8f8;
+  min-height: calc(100vh - 70px);
+}
+@media (min-width: 500px) {
+  .bloq {
+    font-size: min(1.25vw, 24px);
+  }
+}
+.list:nth-child() {
+  list-style-position: inside;
+  background: #f8f8f8;
+}
+.bodygeneral {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  margin: 0;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.tittle {
+  margin: 0;
+  display: flex;
+  padding: 1em 0 0 0;
+  font-size: 1.5em;
+  background: #f8f8f8;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.textbox {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+@media (min-width: 500px) {
+  .textbox {
+    margin: 0;
+    padding: 1.5em 0em;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.images {
+  padding: 0 2em 0 0;
+  position: relative;
+}
+.countrypicture {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 3/2;
+}
+@media (min-width: 500px) {
+  .countrypicture {
+    width: auto;
+    height: 12em;
+  }
+}
+.countryflag {
+  width: 4em;
+  right: calc(50%- 3em);
+  bottom: calc(50% - 4em);
+  aspect-ratio: 1/1;
+}
+@media (min-width: 500px) {
+  .countryflag {
+    top: 4em;
+    right: 0;
+    position: absolute;
+  }
+}
+.info {
+  padding: 0 0 0 1.5em;
+  flex-grow: 1;
+  max-width: 50em;
+}
+.sublist {
+  padding: 0;
+  margin-top: 0;
+}
+.countrytitle {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.subtitle {
+  color: #563dff;
+  font-weight: bold;
+}
+.boldtitle {
+  display: inline-block;
+  font-weight: bold;
+}
+.dotcolor {
+  color: #563dff;
+}
+.perubackground {
+  background-color: white;
+}
